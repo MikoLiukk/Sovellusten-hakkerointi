@@ -30,3 +30,13 @@ ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu ku
 Tehty ChatGPT antamalla riskeiksi Aikataulu, teknologiset ongelmat, osaamattomuus, tietoturvariskit ja lailliset riskit
 
 
+### Lähteet:
+https://terokarvinen.com/sovellusten-hakkerointi/
+https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/
+https://www.youtube.com/playlist?list=PLfPH7bJ3QKSo5D5RPFIKGHHBGxo6Ydc_P
+https://www.securitycompass.com/blog/detailed-guide-to-iso-27034/
+https://www.dataguard.com/blog/iso-27034/
+https://chatgpt.com/
+INTERNATIONAL STANDARD ISO/IEC 27034-1, First edition 2011-11-15
+
+
