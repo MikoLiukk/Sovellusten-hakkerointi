@@ -7,6 +7,7 @@
 - 3.77 Vulnerability: Omaisuuden tai suojauksen heikkous, jota yksi tai useampi uhka voi uhka voi hyödyntää. 
 
 ## b) Tutustu standardiin ISO 27034-1 - 5
+ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu kuudesta osasta(Yleiskuva ja käsitteet, Organisaation hallinnollinen viitekehys, Sovellusturvallisuuden hallintaprosessi, Sovellusturvallisuuden validointi, Protokollat ja sovellusturvallisuuden valvontarakenne ja Sovellusturvallisuuden ohjeistus erityistilanteisiin)
 ## c) Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä. 
 - Huomioi, että jakso on julkaistu 25.lokakuuta 2021, joten jakson väittämät voivat olla vanhaa tietoa.
 - 1. Väittämä: "Mikään ohjelmisto ei ole täysin tietoturvallinen." Itse uskon, että tämä on täysin totta, harvoin tietoturva ratkaisut vanhenevat kuin viini.
