@@ -7,7 +7,8 @@
 - 3.77 Vulnerability: Omaisuuden tai suojauksen heikkous, jota yksi tai useampi uhka voi uhka voi hyödyntää. 
 
 ## b) Tutustu standardiin ISO 27034-1 - 5
-ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu kuudesta osasta(Yleiskuva ja käsitteet, Organisaation hallinnollinen viitekehys, Sovellusturvallisuuden hallintaprosessi, Sovellusturvallisuuden validointi, Protokollat ja sovellusturvallisuuden valvontarakenne ja Sovellusturvallisuuden ohjeistus erityistilanteisiin)
+ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu kuudesta osasta(Yleiskuva ja käsitteet, Organisaation hallinnollinen viitekehys, Sovellusturvallisuuden hallintaprosessi, Sovellusturvallisuuden validointi, Protokollat ja sovellusturvallisuuden valvontarakenne ja Sovellusturvallisuuden ohjeistus erityistilanteisiin). Nämä tarjoavat ohjeistuksen sovellusturvallisuuden hallintaan eri organisaatioissa. Eri osien avulla organisaatiot voivat integroida sovellusturvallisuuden osaksi ohjelmistokehitystä, elinkaarta ja varmistaa sovellusten turvallisuuden.
+
 ## c) Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä. 
 - Huomioi, että jakso on julkaistu 25.lokakuuta 2021, joten jakson väittämät voivat olla vanhaa tietoa.
 - 1. Väittämä: "Mikään ohjelmisto ei ole täysin tietoturvallinen." Itse uskon, että tämä on täysin totta, harvoin tietoturva ratkaisut vanhenevat kuin viini.
@@ -18,5 +19,14 @@ ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu ku
 - 6. Väittämä: "Ohjelmistokehittäjät näkevät aina omat ohjelmistonsa merkittävästi riskialttiimpina, kuin muiden tekemät ohjelmistot." Uskon tämän väittämän olevan totta, koska kehittäjä tuntee oman ohjelmistonsa paremmin kuin jonkun muun tekemän ohjelmiston. Kehittäjä tunnistaa helpommin heikkoudet ja mahdolliset riskit.
 
 ## d) Tee itsellesi riskienhallintasuunnitelma.
+
+| Riski                     | Todennäköisyys (1–5) | Vaikutus (1–5) | Riskipiste (T x V) | Hallintakeinot                                                                                                      |
+| ------------------------- | -------------------- | -------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Aikataulu venyminen       | 3                    | 4              | 12                 | Laaditaan realistinen aikataulu, varataan puskuria ja suoritetaan väliarviointeja edistymisestä                     |
+| Teknologiset ongelmat     | 3                    | 4              | 12                 | Käytetään luotettavia virtuaalikoneita ja harjoitussovelluksia; varmuuskopioidaan snapshotit ennen kokeiluja        |
+| Osaamattomuus             | 3                    | 5              | 15                 | Seurataan ohjeita tarkasti, hyödynnetään opettajan ja materiaalien tukea, harjoitellaan ensin pienillä esimerkeillä |
+| Tietoturvariskit          | 2                    | 5              | 10                 | Käytetään erillistä virtuaalikonetta; vältetään tuntemattomien ohjelmien ja tiedostojen lataamista                  |
+| Eettiset/Lailliset riskit | 1                    | 5              | 5                  | Testataan vain luvallisia harjoitussovelluksia; harjoitukset kohdistetaan vain eristettyihin ympäristöihin          |
+Tehty ChatGPT.
 
 
