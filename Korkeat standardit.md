@@ -27,6 +27,6 @@ ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu ku
 | Osaamattomuus             | 3                    | 5              | 15                 | Seurataan ohjeita tarkasti, hyödynnetään opettajan ja materiaalien tukea, harjoitellaan ensin pienillä esimerkeillä |
 | Tietoturvariskit          | 2                    | 5              | 10                 | Käytetään erillistä virtuaalikonetta; vältetään tuntemattomien ohjelmien ja tiedostojen lataamista                  |
 | Eettiset/Lailliset riskit | 1                    | 5              | 5                  | Testataan vain luvallisia harjoitussovelluksia; harjoitukset kohdistetaan vain eristettyihin ympäristöihin          |
-Tehty ChatGPT.
+Tehty ChatGPT antamalla riskeiksi Aikataulu, teknologiset ongelmat, osaamattomuus, tietoturvariskit ja lailliset riskit
 
 
