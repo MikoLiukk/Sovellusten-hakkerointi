@@ -20,6 +20,8 @@ ISO/IEC 27034 antaa ohjeistusta sovellusturvallisuuden hallintaan. Se koostuu ku
 
 ## d) Tee itsellesi riskienhallintasuunnitelma.
 
+Virtuaalikone ei ole yhteydessä internettiin
+
 | Riski                     | Todennäköisyys (1–5) | Vaikutus (1–5) | Riskipiste (T x V) | Hallintakeinot                                                                                                      |
 | ------------------------- | -------------------- | -------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | Aikataulu venyminen       | 3                    | 4              | 12                 | Laaditaan realistinen aikataulu, varataan puskuria ja suoritetaan väliarviointeja edistymisestä                     |
