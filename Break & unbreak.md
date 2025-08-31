@@ -29,5 +29,24 @@ Suljin maalin ja avasin micro-editorilla staff-only.py scriptin (micro staff-onl
 sql = text("SELECT password FROM pins WHERE pin = :pin") 
 res =db.session.execute(sql.("pin": pin))
 Tämä pätkä tekee kyselyistä parametrisoituja, suodattaa erikoismerkit ja liittää pin arvon turvallisesti erikseen SQL-kyselyyn.
+
+Maali päivitetään scripti ja laitetaan maali uudelleen päälle.
+
 <img width="957" height="733" alt="Näyttökuva 2025-08-31 171914" src="https://github.com/user-attachments/assets/e0336b51-898a-4f3c-9673-b42365c5056c" />
 <img width="957" height="732" alt="Näyttökuva 2025-08-31 171920" src="https://github.com/user-attachments/assets/2aba3b48-1c14-4edc-9759-bbcf32a99212" />
+
+Korjaukset toimivat molempia injektioita vastaan.
+c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf.
+Tämä on tehty aikaisemmassa kurssissa. Tehtävän ratkaisu on suoraan kopioitu aikaisemmasta raportistani (https://github.com/MikoLiukk/Tunkeutumistestaus/blob/main/h3_Fuzzy.md)
+
+Ohjeet ffufin käyttöön ja ensimmäiseen fuzzaukseen Terolta (https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/)
+Ohjeissa maalipalvelin ja kuinka tehtävä ratkaistaan.
+
+Ensimmäisellä fuzzauksella huomasin, että kaikki tiedostot olivat 154 kokoisia, joten filtteröin ne pois ```-fs 154```
+
+![Näyttökuva 2025-04-15 185056](https://github.com/user-attachments/assets/3cfa3c88-35b6-4195-8a90-2acbdc4484e9)
+
+Tämän jälkeen 7 kiinnosttavaa kohdetta, kokeilin ensin .git, mutta sieltä ei löytynyt mitään.
+.git/ ja wp-admin:istä löytyikin halutut kohteet, joten curlasin ne ja "liput" löytyi.
+
+![Näyttökuva 2025-04-15 185338](https://github.com/user-attachments/assets/aee9ce3f-5d9d-41a8-bf30-18da6ef578e3)
