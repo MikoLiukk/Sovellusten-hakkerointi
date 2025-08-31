@@ -38,7 +38,7 @@ Maali päivitetään scripti ja laitetaan maali uudelleen päälle.
 Korjaukset toimivat molempia injektioita vastaan.
 
 ## c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf.
-Tämä on tehty aikaisemmassa kurssissa. Tehtävän ratkaisu on suoraan kopioitu aikaisemmasta raportistani (https://github.com/MikoLiukk/Tunkeutumistestaus/blob/main/h3_Fuzzy.md)
+Tämä on tehty aikaisemmassa kurssissa. Tehtävän ratkaisu on suoraan kopioitu aikaisemmasta raportistani (tehtävä a) (https://github.com/MikoLiukk/Tunkeutumistestaus/blob/main/h3_Fuzzy.md)
 
 Ohjeet ffufin käyttöön ja ensimmäiseen fuzzaukseen Terolta (https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/)
 Ohjeissa maalipalvelin ja kuinka tehtävä ratkaistaan.
