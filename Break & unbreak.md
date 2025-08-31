@@ -36,7 +36,8 @@ Maali päivitetään scripti ja laitetaan maali uudelleen päälle.
 <img width="957" height="732" alt="Näyttökuva 2025-08-31 171920" src="https://github.com/user-attachments/assets/2aba3b48-1c14-4edc-9759-bbcf32a99212" />
 
 Korjaukset toimivat molempia injektioita vastaan.
-c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf.
+
+## c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf.
 Tämä on tehty aikaisemmassa kurssissa. Tehtävän ratkaisu on suoraan kopioitu aikaisemmasta raportistani (https://github.com/MikoLiukk/Tunkeutumistestaus/blob/main/h3_Fuzzy.md)
 
 Ohjeet ffufin käyttöön ja ensimmäiseen fuzzaukseen Terolta (https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/)
