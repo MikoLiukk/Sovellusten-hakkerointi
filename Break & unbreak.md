@@ -59,5 +59,27 @@ Koska ffuf:ia käytettiin edellisessä tehtävässä ja edellisessä tunnilla se
 <img width="946" height="811" alt="Näyttökuva 2025-08-31 174418" src="https://github.com/user-attachments/assets/9fbf2d6c-4fdd-435a-b5cb-1fb6680b116d" />
 
 ## e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
-Kuten aikaisemmassa korjaustehtävässä, olin ongelmissa tämänkin kanssa ja kävin lunttaamassa jo aikaisemmin mainituilta henkilöiltä.  
+Maali pois päältä.
+Kuten aikaisemmassa korjaustehtävässä, olin ongelmissa tämänkin kanssa ja kävin lunttaamassa jo aikaisemmin mainituilta henkilöiltä. Tällä kertaa Aatuhorellin ratkaisu oli mielestäni parempi, koska hän poisti DEBUG:in. DEBUG löytyi tiedostosta /020-your-eyes-only/logtin/logtin ja siellä komento micro settings.py. Täällä muutetaan DEBUG = True -> DEBUG = False ja ALLOWED_HOSTS = ('127.0.0.1')
+<img width="955" height="566" alt="Näyttökuva 2025-08-31 175737" src="https://github.com/user-attachments/assets/7ab7bd3d-ac6a-4215-a9c3-067e85aa962d" />
 
+Näin saatiin debug-sivu pois päältä. 
+
+Eipä tässä vielä kaikki. 
+Tämän jälkeen piti views.py tiedostossa tehdä muutoksia. (/logtin/hats/...) siellä periaatteessa kopioitiin rivi 14 ja pastettiin se riville 19.
+<img width="679" height="331" alt="Näyttökuva 2025-08-31 181311" src="https://github.com/user-attachments/assets/a56349ea-2923-4043-b23e-88dde6c2a42f" />
+Tallennus ja maali päälle, kun yritti päästä admin-console sivustolle tuli virhekoodi 403 Forbidden vastaan.
+
+### Lähteet
+https://askdatdude.github.io/diary/entries/diary.html?entry=SH24-002&week=
+https://github.com/aatuhorelli/ICI012AS3A/blob/main/h2.md
+https://terokarvinen.com/sovellusten-hakkerointi/
+https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+https://portswigger.net/web-security/access-control
+https://www.youtube.com/watch?v=wX6tszfgYp4
+https://github.com/MikoLiukk/Tunkeutumistestaus/blob/main/h3_Fuzzy.md
+https://stackoverflow.com/questions/27649759/using-prepared-statements-with-mysql-in-python
+https://chatgpt.com/
+https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+https://terokarvinen.com/hack-n-fix/
