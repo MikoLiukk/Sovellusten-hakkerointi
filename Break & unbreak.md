@@ -51,3 +51,13 @@ Tämän jälkeen 7 kiinnosttavaa kohdetta, kokeilin ensin .git, mutta sieltä ei
 .git/ ja wp-admin:istä löytyikin halutut kohteet, joten curlasin ne ja "liput" löytyi.
 
 ![Näyttökuva 2025-04-15 185338](https://github.com/user-attachments/assets/aee9ce3f-5d9d-41a8-bf30-18da6ef578e3)
+
+## d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
+Kuten tehtävässä a) Ohjeet löytyvät samalta sivulta kuinka maali asennetaan ja kuinka sitä ajetaan.
+Koska ffuf:ia käytettiin edellisessä tehtävässä ja edellisessä tunnilla sen käyttöä käytiin läpi, päätin ffuf:lla aloittaa. Komennolla: .//ffuf -w common.txt -u http://127.0.0.1:8000/FUZZ piilotettu admin-console löyty heti. Kun kirjoitti  http://127.0.0.1:8000/admin-console/ löytyi oikea sivukin. 
+<img width="762" height="441" alt="Näyttökuva 2025-08-31 174144" src="https://github.com/user-attachments/assets/9f5989b5-c640-4a37-a85e-e9d17b186f01" />
+<img width="946" height="811" alt="Näyttökuva 2025-08-31 174418" src="https://github.com/user-attachments/assets/9fbf2d6c-4fdd-435a-b5cb-1fb6680b116d" />
+
+## e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
+Kuten aikaisemmassa korjaustehtävässä, olin ongelmissa tämänkin kanssa ja kävin lunttaamassa jo aikaisemmin mainituilta henkilöiltä.  
+
