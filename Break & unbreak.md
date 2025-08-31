@@ -23,3 +23,11 @@ Tämän jälkeen olin jumissa ja jouduin tippumaan jopa "Almost spoilers for 010
 <img width="958" height="806" alt="Näyttökuva 2025-08-31 170917" src="https://github.com/user-attachments/assets/a5242b79-4ea8-483d-b063-e90651776da5" />
 
 <img width="964" height="805" alt="Näyttökuva 2025-08-31 170955" src="https://github.com/user-attachments/assets/f3a234ff-67f0-4d48-a153-47b1321b9afe" />
+
+## b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
+Suljin maalin ja avasin micro-editorilla staff-only.py scriptin (micro staff-only.py). En ole ennen tehnyt myöskään muiden koodien korjaamista tai debuggausta, joten aluksi ei ollut mitään hajua mistä lähteä liikkeelle, joten katsoin ylemmässä tehtävässä mainittujen Robinin ja Aatuhorellin ratkaisuja. Näistä selvisi, että haavoittuvuus saapuu koodin pätkästä "sql = "SELECT password FROM pins WHERE pin = '"+pin+"';"". Tekoälyn avulla tuli selväksi (https://chatgpt.com), että käyttäjän syöte (pin) lisätään suoraan sellaisenaan SQL-kyselyyn ilman muutoksia. Robin oli mielestäni korjannut koodin yksinkertaisemmin, kuin Aatuhorelli (less is more?). Loppujen lopuksi tekoälyn avulla sain koodinpätkän.
+sql = text("SELECT password FROM pins WHERE pin = :pin") 
+res =db.session.execute(sql.("pin": pin))
+Tämä pätkä tekee kyselyistä parametrisoituja, suodattaa erikoismerkit ja liittää pin arvon turvallisesti erikseen SQL-kyselyyn.
+<img width="957" height="733" alt="Näyttökuva 2025-08-31 171914" src="https://github.com/user-attachments/assets/e0336b51-898a-4f3c-9673-b42365c5056c" />
+<img width="957" height="732" alt="Näyttökuva 2025-08-31 171920" src="https://github.com/user-attachments/assets/2aba3b48-1c14-4edc-9759-bbcf32a99212" />
