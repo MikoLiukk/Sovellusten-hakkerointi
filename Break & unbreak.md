@@ -20,6 +20,6 @@ Aikanaan muilla kursseilla olin tehnyt hieman SQL-injektioita ja koska kurssin t
 
 Firefoxin developer työkaluissa on Inspector-työkalu, josta saa selaimen HTML rakenteet esille, josta löytyy maalin haavoittuvuus. Sivu on rakennettu siten, että elementtiin voi kirjoittaa vain numeroita, mutta tämä on helposti muutettavissa. kun ´´´<input type="number"``` vaihdetaan ´´´<input type="text"```. 
 Tämän jälkeen olin jumissa ja jouduin tippumaan jopa "Almost spoilers for 010" kohtaan, jossa silmään iski ```Limit´´´ komentoon. Lopullinen kenttään laitettu syöte oli ```' OR 1=1 LIMIT 2,1; --´´´. Limitin ensimmäinen numero on rivi mistä haku aloitetaan ja toinen numero on tietueiden määrä. Katsoin myös Robin Niinemetsin ja Aatuhorellilta mitä he olivat saaneet aikaiseksi (https://askdatdude.github.io/diary/entries/diary.html?entry=SH24-002&week= ja https://github.com/aatuhorelli/ICI012AS3A/blob/main/h2.md). Aatuhorelli oli saannut saman vastauksen kuin allekirjoittanut, mutta päätin myös kokeilla Robin Niinemetsin versiota, sekin vielä toimi.
-<img width="762" height="441" alt="Näyttökuva 2025-08-31 174144" src="https://github.com/user-attachments/assets/ef52c35e-e921-4022-b3db-969dc3bab12d" />
+<img width="959" height="806" alt="Näyttökuva 2025-08-31 170912" src="https://github.com/user-attachments/assets/c63b7ef0-bc0a-4c48-a163-34c285b28098" />
 
-<img width="946" height="811" alt="Näyttökuva 2025-08-31 174418" src="https://github.com/user-attachments/assets/e39f33c9-4d34-40ac-824b-86f13017a162" />
+<img width="958" height="806" alt="Näyttökuva 2025-08-31 170917" src="https://github.com/user-attachments/assets/abe46c2d-aef5-4a47-829f-75236f7f022d" />
