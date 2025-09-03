@@ -14,7 +14,26 @@ Ensin ladattiin Teron sivuilta (linkki ylhäällä) ezbin-challenges.zip paketti
 
 ## b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
 
+Aloitin tutkimalla mitä Obfuskointi tarkoittaa ja miten se voidaan tehdä. Obfuskointihan ei tarkoita datan salaamista vaan sen sekoittamista/hämäystä. Päädyin kuitenkin siihe, että tekoäly osaa (https://www.chatgpt.com) Laitoin prompiin koodin ja pyysin sen obfuskoimisesta. Kuvassa takasin saatu XOR-obfuskoitu koodi.
+
+<img width="789" height="582" alt="Näyttökuva 2025-09-02 181510" src="https://github.com/user-attachments/assets/810ca7aa-6f07-472a-bbb4-a373ef960c18" />
+
+Se toimii.
+
+<img width="436" height="463" alt="Näyttökuva 2025-09-02 181738" src="https://github.com/user-attachments/assets/698db31b-b064-4012-acc2-4c83a6923150" />
+
+
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
+Yritin aluksi strings-komenolla avata tehtävää, en tiennyt sitä silloin mutta sain sillä jo salasanan ensimmäisen osan. 
+<img width="436" height="463" alt="Näyttökuva 2025-09-02 181738" src="https://github.com/user-attachments/assets/e3840acd-7788-48c5-bfdb-b37b815e9b4f" />
+Tämän jälkeen muistin, että tunnilla oli käyty file-komentoa, se oli tyhjä arpa.
+
+<img width="821" height="153" alt="Näyttökuva 2025-09-02 181840" src="https://github.com/user-attachments/assets/7e0d7e2a-16e4-4a35-ad98-57cf9c9cf60c" />
+
+Tämän jälkeen tutkin lisää sovellusta strings-komennolla ja siellä osui silmään pakkausohjelma UPX. (https://github.com/upx/upx) UPX Packerissä on myös unpack ominaisuus, joten latasin upx linuxille (sudo apt-get install upx). Unpack ominaisuus toimi ihan komennolla upx -d packd -0 packd_unpacked. 
+
+<img width="691" height="595" alt="Näyttökuva 2025-09-02 182101" src="https://github.com/user-attachments/assets/3779a49d-92a1-4ba7-86aa-14035755bd25" />
 
 ### Lähteet:
 https://terokarvinen.com/sovellusten-hakkerointi/
+https://www.chatgpt.com
