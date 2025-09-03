@@ -26,6 +26,7 @@ Se toimii.
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
 
 Yritin aluksi strings-komenolla avata tehtävää, en tiennyt sitä silloin mutta sain sillä jo salasanan ensimmäisen osan. 
+
 <img width="436" height="463" alt="Näyttökuva 2025-09-02 181738" src="https://github.com/user-attachments/assets/e3840acd-7788-48c5-bfdb-b37b815e9b4f" />
 
 Tämän jälkeen muistin, että tunnilla oli käyty file-komentoa, se oli tyhjä arpa.
