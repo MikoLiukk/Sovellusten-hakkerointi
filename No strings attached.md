@@ -24,8 +24,10 @@ Se toimii.
 
 
 ## c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...)
+
 Yritin aluksi strings-komenolla avata tehtävää, en tiennyt sitä silloin mutta sain sillä jo salasanan ensimmäisen osan. 
 <img width="436" height="463" alt="Näyttökuva 2025-09-02 181738" src="https://github.com/user-attachments/assets/e3840acd-7788-48c5-bfdb-b37b815e9b4f" />
+
 Tämän jälkeen muistin, että tunnilla oli käyty file-komentoa, se oli tyhjä arpa.
 
 <img width="821" height="153" alt="Näyttökuva 2025-09-02 181840" src="https://github.com/user-attachments/assets/7e0d7e2a-16e4-4a35-ad98-57cf9c9cf60c" />
@@ -34,6 +36,16 @@ Tämän jälkeen tutkin lisää sovellusta strings-komennolla ja siellä osui si
 
 <img width="691" height="595" alt="Näyttökuva 2025-09-02 182101" src="https://github.com/user-attachments/assets/3779a49d-92a1-4ba7-86aa-14035755bd25" />
 
+Sitten taas strings packd, ja salasana löytyi.
+
+<img width="588" height="352" alt="Näyttökuva 2025-09-02 183036" src="https://github.com/user-attachments/assets/c2a87d31-c3bf-41fb-9ebf-b26f79bf8aba" />
+
+Ja se toimikin.
+
+<img width="579" height="86" alt="Näyttökuva 2025-09-02 183043" src="https://github.com/user-attachments/assets/c398fa46-a5d2-4b54-95cc-3f4351e43b41" />
+
+
 ### Lähteet:
 https://terokarvinen.com/sovellusten-hakkerointi/
 https://www.chatgpt.com
+https://github.com/upx/upx
