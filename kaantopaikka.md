@@ -10,7 +10,7 @@
 - sudo apt-get install ghidra tai kalilla pelkkä ghidra komentoriville
 
 ## b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujielle kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
-Ezpin-challenges.zip:iä käytettiin jo viime tehtävissä, mutta asensin ne uudelleen ja unzippasin, koska halusin aloittaa puhtaalta pöydältä. Avataan packd ghidralla. Ohjelmahan on aika yksinkertainen, 
+Ezpin-challenges.zip:iä käytettiin jo viime tehtävissä, mutta asensin ne uudelleen ja unzippasin, koska halusin aloittaa puhtaalta pöydältä. Avataan packd ghidralla. Ohjelmahan on aika yksinkertainen salasanan tarkistin. Se kysyy käyttäjältä salasanaa ja vertaa sitä ennalta määritettyyn merkkijonoon. Jos salasanat täsmäävät, ohjelma ilmoittaa, että salasana oli oikein. Muussa tapauksessa se ilmoittaa, että salasana oli väärin. 
 
 <img width="1917" height="887" alt="Näyttökuva 2025-09-14 123446" src="https://github.com/user-attachments/assets/5c761520-4365-4805-b4d0-c2cd928f96f1" />
 
