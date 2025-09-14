@@ -83,3 +83,5 @@ Ohjelma muuttaa salasanan käyttäen ASCII taulukkoa:
 
 <img width="338" height="71" alt="Näyttökuva 2025-09-14 145206" src="https://github.com/user-attachments/assets/58d41382-8acd-4c5b-8762-41f6f5b367dc" />
 
+### Muut lähteet:
+https://terokarvinen.com/sovellusten-hakkerointi/
