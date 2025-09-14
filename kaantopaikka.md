@@ -57,4 +57,5 @@ Tämän kiertämiseen tarvitaan hipsukat. '
 <img width="417" height="126" alt="Näyttökuva 2025-09-14 140427" src="https://github.com/user-attachments/assets/ef63e1ec-f7e5-4cff-aaad-e33e420c26d4" />
 
 ## f) Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri.
-Tämän kanssa oli sen verran ongelmia, että jouduin katsomaan ratkaisuja Noralta itseltään (
+Tämän kanssa oli sen verran ongelmia, että jouduin katsomaan ratkaisuja Noralta itseltään (https://nora.codes/tutorial/an-intro-to-x86_64-reverse-engineering/) Ei auttanut, voiko olla syynä tekstin pituus, kielimuuri ja/tai osaamattomuus? Katsoin sitten mitä ilpakka on tehnyt (https://github.com/ilpakka/linuxlax/blob/main/sovellushax/h4/ghidra.md), sama vika. Eeromarkkasenkin ohjeet menivät minulta ohi (https://github.com/eeromarkkanen/Application-Hacking-and-Vulnerabilities/blob/main/h4-K%C3%A4%C3%A4nt%C3%B6paikka.md) Loppujen lopuksi laitoin alkuperäisen ohjelman (https://github.com/NoraCodes/crackmes/blob/master/crackme02.c) decompin ja ohjelman binäärit tekoälylle (https://chatgpt.com) 
+Ja pyysin kertomaan ohjelman muuttujat binääristä ja että selittäisi kuinka ohjelma toimii. (https://chatgpt.com/share/68c6bc80-27ec-8002-850f-3231e287f99a https://chatgpt.com/share/68c6bca1-9db0-8002-9e74-874b05545775).
