@@ -61,3 +61,9 @@ Tämän kanssa oli sen verran ongelmia, että jouduin katsomaan ratkaisuja Noral
 Ja pyysin kertomaan ohjelman muuttujat binääristä ja että selittäisi kuinka ohjelma toimii. (https://chatgpt.com/share/68c6bc80-27ec-8002-850f-3231e287f99a https://chatgpt.com/share/68c6bca1-9db0-8002-9e74-874b05545775).
 
 Näiden kaikkien yhteisestä selityksestä ja osaamisesta, ymmärsin, että ohjelman salasana on password1, mutta ohjelma korottaa annettua syötettä yhdellä merkillä ylöspäin. Eli vaikka password1 on salasana, se ei syötteeseen annettuna toimi.
+Koska syöte nostaa salasanan merkkejä yhdellä, pitää kirjoittaa syötteeseen yhdet merkit alaspäin salasanasta.
+
+<img width="1356" height="630" alt="Näyttökuva 2025-09-14 145010" src="https://github.com/user-attachments/assets/04f7e2d0-feb6-4dc2-b33c-636e5ed158e0" />
+
+<img width="338" height="71" alt="Näyttökuva 2025-09-14 145206" src="https://github.com/user-attachments/assets/58d41382-8acd-4c5b-8762-41f6f5b367dc" />
+
