@@ -65,6 +65,8 @@ Koska syöte nostaa salasanan merkkejä yhdellä, pitää kirjoittaa syötteesee
 
 <img width="1356" height="630" alt="Näyttökuva 2025-09-14 145010" src="https://github.com/user-attachments/assets/04f7e2d0-feb6-4dc2-b33c-636e5ed158e0" />
 
+Annettu syöte, ei voi sisältää enempää kirjaimia kuin salasanan, muuten ohjelma automaattisesti hylkää syötteen. Jokainen annettu merkki käydään läpi merkki merkiltä.
+
 Ohjelma muuttaa salasanan käyttäen ASCII taulukkoa:
 | Merkki (original) | ASCII | Vähennys -1 | ASCII | Käyttäjän syöte |
 | ----------------- | ----- | ----------- | ----- | --------------- |
