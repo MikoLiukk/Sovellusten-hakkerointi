@@ -25,3 +25,14 @@ Sittenhän unpakatun decomptin mainista löyty salasana ja flägi.
 Testasin vielä varmuuden vuoksi, että salasana toimi
 
 <img width="584" height="101" alt="Näyttökuva 2025-09-14 133352" src="https://github.com/user-attachments/assets/6d97db8d-fd68-424e-b96d-9919a02bb48e" />
+
+## c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
+Tämä onneksi käytiin pikaisesti tunnilla. Pitää vain löytää oikea JNZ ja vaihtaa se JZ. Tässä onneksi Decompilla löyty nopeasti oikea JNZ.
+
+<img width="1898" height="688" alt="Näyttökuva 2025-09-14 133832" src="https://github.com/user-attachments/assets/f2d88462-2c3d-4445-b2aa-ef92cd1058c8" />
+
+Exportataan ohjelma ja testataan, että toimii:
+
+<img width="612" height="367" alt="Näyttökuva 2025-09-14 134417" src="https://github.com/user-attachments/assets/3526c118-5d5b-4450-852c-e6f248fa3e05" />
+
+## d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes (https://github.com/NoraCodes/crackmes). Lue README.md (https://github.com/NoraCodes/crackmes/blob/master/README.md): älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0".
