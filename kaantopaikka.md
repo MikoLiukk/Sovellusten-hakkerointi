@@ -65,5 +65,19 @@ Koska syöte nostaa salasanan merkkejä yhdellä, pitää kirjoittaa syötteesee
 
 <img width="1356" height="630" alt="Näyttökuva 2025-09-14 145010" src="https://github.com/user-attachments/assets/04f7e2d0-feb6-4dc2-b33c-636e5ed158e0" />
 
+Ohjelma muuttaa salasanan käyttäen ASCII taulukkoa:
+| Merkki (original) | ASCII | Vähennys -1 | ASCII | Käyttäjän syöte |
+| ----------------- | ----- | ----------- | ----- | --------------- |
+| p                 | 112   | -1          | 111   | o               |
+| a                 | 97    | -1          | 96    | \`              |
+| s                 | 115   | -1          | 114   | r               |
+| s                 | 115   | -1          | 114   | r               |
+| w                 | 119   | -1          | 118   | v               |
+| o                 | 111   | -1          | 110   | n               |
+| r                 | 114   | -1          | 113   | q               |
+| d                 | 100   | -1          | 99    | c               |
+| 1                 | 49    | -1          | 48    | 0               |
+
+
 <img width="338" height="71" alt="Näyttökuva 2025-09-14 145206" src="https://github.com/user-attachments/assets/58d41382-8acd-4c5b-8762-41f6f5b367dc" />
 
