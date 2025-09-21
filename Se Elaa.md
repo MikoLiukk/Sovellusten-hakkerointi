@@ -1,4 +1,7 @@
 # h5 Se elää! (Lari)
+
+HUOMIO KOTITEHTÄVÄT ON OTETTU TERON SIVUILTA EI MOODLESTA.
+
 Labien zip-filet ladattavissa https://terokarvinen.com/sovellusten-hakkerointi/
 
 ## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip
