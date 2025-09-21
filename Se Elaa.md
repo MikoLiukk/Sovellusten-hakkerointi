@@ -21,3 +21,9 @@ Sain kuin sainkin lipun ja salasanan, mutta en tehnyt mielestäni tehtävää on
 
 
 Flägi kuitenkin löytyi kun ensimmäisestä breikistä (Whats the password?) kun breikistä asetetaan palautusarvoksi 1 ((gdb) set $eax = 1) ja sitten continue.
+<img width="599" height="327" alt="Näyttökuva 2025-09-21 212446" src="https://github.com/user-attachments/assets/6f07de30-d2cb-4fb6-9f8e-29581ffc5dd4" />
+
+Salananakin tuli kokonaan tekoälyltä. Salasanan salattu versio löytyi kun disassemble main --> break mAsdf3a (koska aikaisemmat callit on plt loppuisia (jonkin sortin printf)) ja tarkistettiin mAsdf3a rekistereitä. Tekoäly tajusi kuinka käännetään haluttu "anLTj4u8" oikeaksi salasanaksi.
+
+<img width="591" height="89" alt="image" src="https://github.com/user-attachments/assets/0e2fa79b-36f0-4414-913c-6859ba4bc449" />
+
