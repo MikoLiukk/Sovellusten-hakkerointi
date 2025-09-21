@@ -1,6 +1,6 @@
 # h5 Se elää! (Lari)
 
-HUOMIO KOTITEHTÄVÄT ON OTETTU TERON SIVUILTA EI MOODLESTA.
+# HUOMIO KOTITEHTÄVÄT ON OTETTU TERON SIVUILTA EI MOODLESTA.
 
 Labien zip-filet ladattavissa https://terokarvinen.com/sovellusten-hakkerointi/
 
