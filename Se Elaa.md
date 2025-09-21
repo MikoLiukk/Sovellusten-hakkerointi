@@ -28,3 +28,8 @@ Salananakin tuli kokonaan tekoälyltä. Salasanan salattu versio löytyi kun dis
 
 <img width="591" height="89" alt="image" src="https://github.com/user-attachments/assets/0e2fa79b-36f0-4414-913c-6859ba4bc449" />
 
+<img width="609" height="736" alt="Näyttökuva 2025-09-22 001830" src="https://github.com/user-attachments/assets/ac5afe9c-5f1d-48b9-941e-004ba4333346" />
+
+<img width="604" height="732" alt="Näyttökuva 2025-09-22 002129" src="https://github.com/user-attachments/assets/6fa026a8-a2e9-4f38-a0a0-2b28ce157b5a" />
+
+<img width="591" height="89" alt="Näyttökuva 2025-09-22 000606" src="https://github.com/user-attachments/assets/9c2b265b-9a56-42ee-9b04-cfc8ba5aae9e" />
