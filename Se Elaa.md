@@ -34,10 +34,8 @@ Salananakin tuli kokonaan tekoälyltä. Salasanan salattu versio löytyi kun dis
 
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes. (https://github.com/NoraCodes/crackmes)
 Jotta edellinen ei ollut liian helppo... Koitin katsoa suoraan ratkaisua Noran omilta ratkaisuista (https://nora.codes/tutorial/an-intro-to-x86_64-reverse-engineering/)
-ja omaksi innokseni Radare2 löytyi valmiiksi koneelta, joten päästään seuraamaan ohjeita ja ei mitään. Tekoälyekskusteluun linkki ([https://chatgpt.com/c/68d05918-c584-832c-a50f-03895e384ef5](https://chatgpt.com/c/68d05387-9db4-8331-8a54-842db0cebab8)).
+ja omaksi innokseni Radare2 löytyi valmiiksi koneelta, joten päästään seuraamaan ohjeita ja ei mitään. Tekoälykeskusteluun linkki ([https://chatgpt.com/c/68d05918-c584-832c-a50f-03895e384ef5](https://chatgpt.com/c/68d05387-9db4-8331-8a54-842db0cebab8)).
 Kopioin sorsan tekoälylle ja pyysin siltä apua.
-
-<img width="928" height="532" alt="Näyttökuva 2025-09-21 225641" src="https://github.com/user-attachments/assets/e9e779db-cd5a-4f7e-b0c6-f37a57e523a9" />
 
 <img width="768" height="845" alt="Näyttökuva 2025-09-21 225658" src="https://github.com/user-attachments/assets/8a3ed316-a7f0-4bd0-99f5-6dcf99c071b9" />
 
@@ -45,4 +43,17 @@ Kopioin sorsan tekoälylle ja pyysin siltä apua.
 
 <img width="732" height="695" alt="Näyttökuva 2025-09-21 225722" src="https://github.com/user-attachments/assets/4e2fd15d-fe13-4d9d-9926-a9b1c0b7b25f" />
 
+<img width="928" height="532" alt="Näyttökuva 2025-09-21 225641" src="https://github.com/user-attachments/assets/e9e779db-cd5a-4f7e-b0c6-f37a57e523a9" />
+
 <img width="932" height="480" alt="Näyttökuva 2025-09-21 225807" src="https://github.com/user-attachments/assets/acd84574-ce25-49ad-a37a-5b3fac109490" />
+
+## Crackme 04.
+Tätä en edes alkanut yrittämään itse, laitoin sorsan tekoälylle ja sehän keksi että kyseessä on yksinkertainen matematiikka ongelma. Huom, tässä on mennyt nyt noin 6h rikki. (https://chatgpt.com/c/68d05918-c584-832c-a50f-03895e384ef5)
+
+<img width="567" height="203" alt="Näyttökuva 2025-09-21 230108" src="https://github.com/user-attachments/assets/469cc9df-bb31-4f04-99f3-7f3fc3523d80" />
+
+
+### Lähteet:
+https://terokarvinen.com/sovellusten-hakkerointi/
+https://www.youtube.com/watch?v=tOQZlD-0Scc
+https://www.geeksforgeeks.org/c/gdb-step-by-step-introduction/
