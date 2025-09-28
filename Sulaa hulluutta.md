@@ -43,3 +43,32 @@ Eipä tässäkään mitään erikoista ollut, kun tajusi että file komenolla sa
 <img width="443" height="334" alt="Näyttökuva 2025-09-28 125151" src="https://github.com/user-attachments/assets/c1da9f18-5e40-40db-9507-780b1a661324" />
 
 ## Lab 2
+Valittu Apk oli Blokada (https://github.com/blokadaorg/blokada), joka on mainosten esto ohjelma. JADX purkasi tiedostot Java-lähdekoodiksi ja Bytecode-viewer toimi vähän niinkuin Ghidra, joka näytti tiedoston dekompattuna.
+
+<img width="1917" height="1023" alt="Näyttökuva 2025-09-28 161110" src="https://github.com/user-attachments/assets/f407fd56-86eb-44e4-96c3-2edaac2a933a" />
+
+<img width="1907" height="919" alt="Näyttökuva 2025-09-28 163041" src="https://github.com/user-attachments/assets/5bae5d2e-13f7-4c0f-b1dc-3d4fd2589272" />
+
+<img width="1261" height="617" alt="Näyttökuva 2025-09-28 163452" src="https://github.com/user-attachments/assets/2d118efc-bf30-4538-8ec6-3aa65619f5f0" />
+
+### Tehtävänanto
+Tehtävien tarkoitus on tutusttaa erilaisten binaaristen tiedostojen avaamiseen ja työkalujen käyttöön. En kuitenkaan oikein tiennyt mitä tehdä näillä saaduilla tiedoilla.
+
+Lab0: Tutki tiedostoa h1.jpg, jo opituilla työkaluilla mitä saat selville?
+
+
+Lab1: Tutki tiedostoa h1.jpg binwalk (Versio 2.x tai 3.x huom toimivat eri tavalla), mitä tietoja löydät nyt tiedostosta. Mitä työkalua käyttäisit tiedostojen erottamiseen?
+
+
+Lab2: FOSS (Free Android OpenSource) Tutustu listaan eri android applikaatioita.
+https://github.com/offa/android-foss
+Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi miten APK:n voi avata. 
+ZIP, JADX ( https://github.com/skylot/jadx ), Bytecode-viewer ( https://github.com/Konloch/bytecode-viewer/ )
+
+Kirjoita raporttiin mitä applikaatiota tutkit ja mitä tietoja sait selvitettyä käännetystä paketista, tarvittaessa voit verrata vastaako tieto githubissa olevaan koodiin.
+
+
+### Lähteet
+https://github.com/konloch/bytecode-viewer/releases
+https://github.com/blokadaorg/blokada
+https://www.youtube.com/watch?v=5vG6lbBUT9U&t=134s
