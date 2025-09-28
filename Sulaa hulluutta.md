@@ -13,6 +13,7 @@ Tiedostossa oli ihan kuvakin ja paljon xml-tiedostoja, ei siis mitenkään eriko
 
 ## Lab 1
 Eipä tässäkään mitään erikoista ollut, kun tajusi että file komenolla sai tietää, että kyseessä on excel, piti ladata libreoffice, että tätä pystyi katsoa. Katsoin myös kaikki muutkin dokumentit mitä sieltä löytyi.
+
 <img width="929" height="567" alt="Näyttökuva 2025-09-28 123151" src="https://github.com/user-attachments/assets/f3500442-825b-449f-a9ea-558c23a882ee" />
 
 <img width="938" height="596" alt="Näyttökuva 2025-09-28 123324" src="https://github.com/user-attachments/assets/2d2d454b-4828-4740-97ec-8244780b6ceb" />
@@ -37,6 +38,6 @@ Eipä tässäkään mitään erikoista ollut, kun tajusi että file komenolla sa
 
 <img width="884" height="344" alt="Näyttökuva 2025-09-28 125107" src="https://github.com/user-attachments/assets/8d9e4b23-8ef4-4faf-94e1-fe6552d5b3cd" />
 
-![Uploading Näyttökuva 2025-09-28 125151.png…]()
+<img width="884" height="344" alt="Näyttökuva 2025-09-28 125107" src="https://github.com/user-attachments/assets/226112ac-04c3-42bb-90bd-db3985875798" />
 
-![Uploading Näyttökuva 2025-09-28 123324.png…]()
+<img width="443" height="334" alt="Näyttökuva 2025-09-28 125151" src="https://github.com/user-attachments/assets/c1da9f18-5e40-40db-9507-780b1a661324" />
