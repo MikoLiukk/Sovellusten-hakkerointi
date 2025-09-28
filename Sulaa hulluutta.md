@@ -41,3 +41,5 @@ Eipä tässäkään mitään erikoista ollut, kun tajusi että file komenolla sa
 <img width="884" height="344" alt="Näyttökuva 2025-09-28 125107" src="https://github.com/user-attachments/assets/226112ac-04c3-42bb-90bd-db3985875798" />
 
 <img width="443" height="334" alt="Näyttökuva 2025-09-28 125151" src="https://github.com/user-attachments/assets/c1da9f18-5e40-40db-9507-780b1a661324" />
+
+## Lab 2
