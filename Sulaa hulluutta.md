@@ -5,4 +5,5 @@
 
 <img width="486" height="764" alt="Näyttökuva 2025-09-28 123059" src="https://github.com/user-attachments/assets/7aac50e1-5414-4387-8e80-88b58518fec0" />
 
-<img width="938" height="596" alt="Näyttökuva 2025-09-28 123324" src="https://github.com/user-attachments/assets/0f124bea-a098-4785-bee0-cd8f8d329400" />
+
+<img width="407" height="271" alt="Näyttökuva 2025-09-28 123115" src="https://github.com/user-attachments/assets/30546ea2-de81-43a7-9e40-4dc983ce3f73" />
