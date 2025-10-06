@@ -23,3 +23,8 @@
 <img width="647" height="106" alt="Näyttökuva 2025-10-05 132803" src="https://github.com/user-attachments/assets/f34be331-21bf-4876-987b-d9ea9c3b42e7" />
 
 <img width="661" height="514" alt="Näyttökuva 2025-10-05 132930" src="https://github.com/user-attachments/assets/80cc380c-e86a-4eb7-93d5-9d50c9b75c35" />
+
+### Lähteet:
+https://terokarvinen.com/sovellusten-hakkerointi/
+https://www.youtube.com/watch?v=bb8H2BLysts&t=565s
+https://cedricvanrompay.gitlab.io/cryptopals/challenges/01-to-08.html
