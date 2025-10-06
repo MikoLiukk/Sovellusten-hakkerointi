@@ -1,7 +1,11 @@
 # h7 Uhagre2 (Tero)
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
-## Ratkaise CryptoPals Set 1 -haasteet. Tehtävät saa ratkaista millä vain ohjelmointikielellä ja käyttää mitä tahansa tekstieditoria tai IDE:ä. Tehtäviä ei kannata ratkaista tekoälyllä, koska se vain kopioi malliratkaisun suoraan koulutusmateriaalistaan.
+(https://terokarvinen.com/python-for-hackers/) On ainoa mikä aukeaa minulle.
+ - Nopeita työkaluja
+ - Interaktiivisen koodin manipulointi-/tulkkityökalun käyttäminen on hyödyllistä nopeamman palautteen saamiseksi.
+
+## Ratkaise CryptoPals Set 1 -haasteet. Tehtävät saa ratkaista millä vain ohjelmointikielellä ja käyttää mitä tahansa tekstieditoria tai IDE:ä. Tehtäviä ei kannata ratkaista tekoälyllä, koska se vain kopioi malliratkaisun suoraan koulutusmateriaalistaan. (https://cryptopals.com/sets/1)
 ### a) 1. Convert hex to base64.
 
 <img width="1025" height="76" alt="Näyttökuva 2025-10-05 131322" src="https://github.com/user-attachments/assets/4dc5980f-0c6f-4ace-9dcb-a25c6c4dcd32" />
